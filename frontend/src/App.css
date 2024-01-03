@@ -1,0 +1,50 @@
+* {
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+/* ================================================Login CSS==================================================== */
+
+.colored-button {
+  background-color: #c46cff;
+  border-color: #c46cff;
+  color: white;
+}
+
+.colored-button:hover {
+  background-color: #b341ff;
+  border-color: #b341ff;
+  color: white;
+}
+
+.form-check-input:checked{
+  border-color: #c46cff;
+  background-color: #c46cff;
+}
+
+a {
+  text-decoration: none;
+  color: #37B5DF;
+}
+
+.dashboard-body .box{
+  background-color: #eee;
+  width: 60%;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.dashboard-body .top input{
+  width: 94%;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+}
+.dashboard-body button:hover{
+  cursor: pointer;
+}
